@@ -1,0 +1,111 @@
+.Menu {
+    background-color: #2f353a;
+    color: white;
+    width: 260px;
+    height: 100vh;
+    box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+    z-index: 2;
+    left: 0;
+    transition-property: top,bottom;
+    transition-duration: .2s,.2s,.35s;
+    transition-timing-function: linear,linear,ease;
+    position: fixed;
+}
+
+.user {
+    border-top: 1px solid hsla(0,0%,71%,.3);
+    position: relative;
+    padding: 20px 0;
+    padding-bottom: 10px;
+}
+
+.photo {
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    float: left;
+    z-index: 5;
+    margin-right: 11px;
+    border-radius: 50%;
+    margin-left: 23px;
+    box-shadow: 0 16px 38px -12px rgba(0,0,0,.56), 0 4px 25px 0 rgba(0,0,0,.12), 0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.user-info a {
+    display: block;
+    line-height: 18px;
+    font-size: 14px;
+    color:white;
+    padding: .7rem 15px;
+    white-space: nowrap;
+    transition: all .15s ease-in;
+    cursor: pointer;
+}
+.caret {
+    position: absolute;
+    top: 37px;
+    right: 43px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 6px dashed;
+    border-right: 6px solid transparent;
+    border-left: 6px solid transparent;
+    cursor: pointer;
+}
+
+.sidebar-mini {
+    text-transform: uppercase;
+    width: 30px;
+    margin-right: 15px;
+    text-align: center;
+    position: relative;
+    float: left;
+    display: inherit;
+    font-size: 13px !important;
+    color: white;
+}
+
+.sidebar-normal {
+    margin: 0;
+    position: relative;
+    transform: translateX(0);
+    opacity: 1;
+    white-space: nowrap;
+    display: block;
+    font-size: 13px;
+    letter-spacing: 0.04rem;
+    color:white;
+}
+
+.Menu li a {
+    height: 40px;
+}
+.Menu li a:hover {
+    background-color: hsla(0,0%,78%,.2);
+    border-radius: 3px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: white
+}
+.Menu li a:focus, .Menu li a:active {
+    background-color: #9c27b0;
+    border-radius: 3px;
+    transition: 0.5s;
+    text-decoration: none;
+    color: white
+}
+
+
+.menu-card {
+    background-color: #2f353a;
+    border: none !important;
+    box-shadow: none !important
+}

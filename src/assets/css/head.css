@@ -1,0 +1,67 @@
+.head {
+    background-color: white;
+    height: 55px;
+    position: fixed;
+    z-index: 1020;
+    width: 100%;
+    text-align: center;
+}
+
+.navbar-toggler {
+    display: inline-block;
+    width: 2.5em;;
+    vertical-align: middle !important;
+    cursor: pointer;
+    color: white;
+    font-size: 2rem !important;
+    padding: 0px 25px !important;
+}
+
+
+.navbar-toggler:hover{
+    background: none;
+    text-decoration: none;
+    outline: none !important;
+    border-color: #ced4da !important;
+    box-shadow: none !important;
+
+}
+
+.navbar-toggler:focus {
+    outline: none !important;
+    border-color: #ced4da !important;
+    box-shadow: none !important;
+}
+
+@media only screen and (max-width: 992px) {
+    .d-md-down-none {
+        display: none !important;
+    }
+}
+
+.logoHeader {
+    width: 260px;
+    height: 55px;
+    padding: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid #c8ced3;
+}
+.nav-item {
+    position: relative;
+    min-width: 50px;
+    text-align: center;
+    padding-left: 1rem;
+    
+}
+.nav-item a {
+    color: #73818f !important; 
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-item a:hover{
+    text-decoration: none!important;
+    color:#9c27b0 !important;
+}
